@@ -5,12 +5,12 @@ public class Run
         Animal doggo = new Dog();
         Animal cat = new Cat();
 
-        System.out.println("dog:");
+        System.out.println("dog do something:");
         doggo.sound();
         ((Dog) doggo).dance();
         doggo.move();
 
-        System.out.println("cat: ");
+        System.out.println("cat do something: ");
         cat.sound();
         cat.move();
         ((Cat) cat).sleep();
