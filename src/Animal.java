@@ -5,6 +5,6 @@ abstract class Animal
 
     public void move()
     {
-        System.out.println("move like a animal (^^)");
+        System.out.println("move like an animal (^^)");
     }
 }

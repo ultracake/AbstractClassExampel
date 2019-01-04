@@ -10,11 +10,10 @@ public class Run
         ((Dog) doggo).dance();
         doggo.move();
 
+        System.out.println("");
         System.out.println("cat do something: ");
         cat.sound();
         cat.move();
         ((Cat) cat).sleep();
-
-
     }
 }
